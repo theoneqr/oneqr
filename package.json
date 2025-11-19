@@ -1,0 +1,21 @@
+{
+  "name": "oneqr",
+  "version": "1.0.0",
+  "description": "OneQR",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "oneqr"
+  ],
+  "author": "oneqr.org",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
